@@ -25,7 +25,7 @@ func main() {
 		//	example: https://file-examples.com/storage/fe2356939c62607a6a1903b/2017/04/file_example_MP4_1920_18MG.mp4
 		Url: "https://file-examples.com/storage/fe2356939c62607a6a1903b/2017/04/file_example_MP4_1920_18MG.mp4",
 		// Provide the target file path with extension, example: sample.mp4
-		TargetPath: "~",
+		TargetPath: "./file_example_MP4_1920_18MG.mp4",
 		// Number of sections/connections to make to the server
 		TotalSections: 10,
 	}
